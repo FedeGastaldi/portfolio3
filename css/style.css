@@ -165,7 +165,10 @@ textarea {
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-pad {
-  padding: 12rem 0; }
+  padding: 12rem 0;
+  background: rgb(234,255,106);
+background: linear-gradient(302deg, rgba(234,255,106,1) 40%, rgba(247,108,230,1) 100%);
+ }
   @media only screen and (max-width: 56.25em) {
     .sec-pad {
       padding: 8rem 0; } }
@@ -247,7 +250,7 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: #eaff6a; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
